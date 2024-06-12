@@ -1,1 +1,16 @@
-__pycache__/**
+.mypy_cache/
+# /.coverage
+# /.coverage.*
+# /.nox/
+/.python-version
+/.pytype/
+/dist/
+# /docs/_build/
+/src/*.egg-info/
+__pycache__/
+.vscode
+tests/data/**/tmp/*
+hecdss.dll
+libhecdss.so
+.idea
+.ipynb_checkpoints
